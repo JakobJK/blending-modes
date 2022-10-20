@@ -1,4 +1,4 @@
-const blendModeOption = document.getElementById('blend-mode')
+const blendModeOption = document.getElementById('blending-mode')
 const changeImage = (e) => {
     const blendMode = e.target.value;
     updateImage(blendModes[blendMode]);
