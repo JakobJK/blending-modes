@@ -1,0 +1,60 @@
+body {
+    background-color: #dfe7ed;
+}
+
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.original {
+    display: flex;
+}
+
+section {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+}
+
+.hidden {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#blend {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+select {
+    background-color: #735eac;
+    font-weight: bold;
+        color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+option {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
